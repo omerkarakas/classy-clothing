@@ -1,10 +1,14 @@
-import CategoriesList from "./components/categories-list/categories-list.component";
+import { Routes, Route } from "react-router-dom";
 
+import Home from "./routes/home/home.component"
 
 const App = () => {
 
   return (
-    <CategoriesList />
+    <Routes>
+      <Route path="/" element={<Home />} />
+
+    </Routes>
   );
 }
 
