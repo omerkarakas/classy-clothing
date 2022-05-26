@@ -1,7 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import { Fragment } from "react";
 
-import { ReactComponent as ClassyLogo } from "../../assets/classy-logo.svg";
+import { ReactComponent as ClassyLogo } from "../../assets/classy.svg";
 
 import './navigation.styles.scss';
 
