@@ -3,7 +3,7 @@
   height: 240px;
   flex: 1 1 auto;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   border: 1px transparent;
   margin: 0 7.5px 15px;
@@ -21,7 +21,8 @@
 
     & .category-body-container {
       opacity: 0.9;
-      transform: scale(1.1);
+      //transform: scale(1.1);
+      filter: brightness(150%);
     }
   }
 
@@ -51,19 +52,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     border: 1px transparent;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     background-color: rgba(98, 203, 241, 0.7);
     opacity: 0.7;
     position: absolute;
-    margin-top: 70px;
+    margin-bottom: 0px;
 
     h2 {
       font-weight: bold;
-      margin: 0 6px 0;
+      margin: 3px 3px;
       font-size: 22px;
-      color: #4a4a4a;
+      color: #2b2b2b;
     }
 
     p {
