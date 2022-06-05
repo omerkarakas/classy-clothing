@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 import { Link } from 'react-router-dom';
+import { ReactComponent as Logo } from "../../assets/classy.svg";
+
 
 export const NavigationContainer = styled.div`
   height: 70px;
@@ -11,8 +13,8 @@ export const NavigationContainer = styled.div`
 `;
 
 export const LogoContainer = styled(Link)`
-  height: 100%;
-  width: 70px;
+  height: 100px;
+  width: 200px;
   padding: 25px;
 `;
 
@@ -29,6 +31,10 @@ export const NavLink = styled(Link)`
   cursor: pointer;
 `;
 
+export const ClassyLogo = styled(Logo)`
+  width: 100px !important;
+  height: 50px !important;
+`;
 // .navigation {
 
 
