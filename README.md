@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App].
 
-Check out the live version of this project deployed in the [netlify](https://bucolic-mermaid-db7706.netlify.app).
+Check out the live version of this project deployed in the [netlify](https://classy-clothing.netlify.app/).
 
 ## Available Scripts
 
